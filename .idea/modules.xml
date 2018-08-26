@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SparkHbase.iml" filepath="$PROJECT_DIR$/SparkHbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/readHbase/readHbase.iml" filepath="$PROJECT_DIR$/readHbase/readHbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/readHbase_2/readHbase_2.iml" filepath="$PROJECT_DIR$/readHbase_2/readHbase_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/readHbase_3/readHbase_3.iml" filepath="$PROJECT_DIR$/readHbase_3/readHbase_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/readHbase_4/readHbase_4.iml" filepath="$PROJECT_DIR$/readHbase_4/readHbase_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/writeHbase/writeHbase.iml" filepath="$PROJECT_DIR$/writeHbase/writeHbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/writeHbase_2/writeHbase_2.iml" filepath="$PROJECT_DIR$/writeHbase_2/writeHbase_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/writeHbase_3/writeHbase_3.iml" filepath="$PROJECT_DIR$/writeHbase_3/writeHbase_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/writeHbase_4/writeHbase_4.iml" filepath="$PROJECT_DIR$/writeHbase_4/writeHbase_4.iml" />
+    </modules>
+  </component>
+</project>

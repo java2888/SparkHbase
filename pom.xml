@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.spark.hbase</groupId>
+    <artifactId>SparkHbase</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>writeHbase</module>
+        <module>readHbase</module>
+        <module>writeHbase_2</module>
+        <module>writeHbase_3</module>
+        <module>writeHbase_4</module>
+        <module>readHbase_2</module>
+        <module>readHbase_3</module>
+        <module>readHbase_4</module>
+    </modules>
+
+    <properties>
+        <jdk.version>1.8</jdk.version>
+        <logback.version>1.1.2</logback.version>
+        <slf4j.version>1.7.16</slf4j.version>
+        <junit.version>3.8.1</junit.version>
+        <scala.version>2.11.8</scala.version>
+        <spark.version>2.3.0</spark.version>
+        <hadoop.version>2.7.4</hadoop.version>
+        <hbase.version>1.2.6</hbase.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>false</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+</project>

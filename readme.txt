@@ -1,0 +1,1 @@
+This file shows how to read & write hbase in spark using scala.

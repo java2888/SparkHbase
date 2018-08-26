@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="readHbase" />
+        <module name="readHbase_2" />
+        <module name="readHbase_3" />
+        <module name="readHbase_4" />
+        <module name="readWriteHbase" />
+        <module name="writeHbase" />
+        <module name="writeHbase_2" />
+        <module name="writeHbase_3" />
+        <module name="writeHbase_4" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="readHbase" target="1.5" />
+      <module name="readHbase_2" target="1.5" />
+      <module name="readHbase_3" target="1.5" />
+      <module name="readHbase_4" target="1.5" />
+      <module name="readWriteHbase" target="1.5" />
+      <module name="SparkHbase" target="1.5" />
+      <module name="writeHbase" target="1.5" />
+      <module name="writeHbase_2" target="1.5" />
+      <module name="writeHbase_3" target="1.5" />
+      <module name="writeHbase_4" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
